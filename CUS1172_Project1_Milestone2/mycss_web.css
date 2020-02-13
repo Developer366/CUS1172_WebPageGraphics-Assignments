@@ -1,0 +1,53 @@
+h1 {
+	background-color: #B5FCFB;
+	font-size:300%;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+	width:1000px;
+	text-align: center; 
+	color: #ff3300;
+}
+p {
+	font-family: OCR A Std, monospace;
+	text-align: center;
+	font-size: 170%;
+}
+.bold {
+	font-weight:900;
+	color: #ff3300;
+}
+.avatar{
+	width:400px; 
+	height:400px; 
+	border-radius:80%; 
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+a {
+	font-size: 230%;
+}
+#Nav{
+	background-color: #ffff33;
+}
+ul{
+	font-family: OCR A Std, monospace;
+	font-size: 170%;
+}
+.ulist{
+	background: #ff99ff;
+	padding: 50px;
+	list-style-type: square;
+}
+li {
+	font-family: cursive;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align:center;
+}
+table {
+border-collapse: collapse; 
+}
+tr {
+	font-size:150%;
+}
