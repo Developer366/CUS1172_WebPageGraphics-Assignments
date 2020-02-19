@@ -46,8 +46,21 @@ table, th, td {
   text-align:center;
 }
 table {
-border-collapse: collapse; 
+	border-collapse: collapse; 
 }
 tr {
+	font-size:100%;
+}
+label {
 	font-size:150%;
+	text-align:center;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
 }

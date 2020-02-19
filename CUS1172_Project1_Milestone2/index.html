@@ -1,16 +1,29 @@
+<!-- Kamil Peza's Work February -->
+
 <!DOCTYPE html>
 <html>
 
 	<head>
 	<title>Kamil Peza's Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="mycss_web.css">
+	<link rel="stylesheet" media="screen and (min-width:900px)" href="mycss_web.css">
+	
+	<link rel="stylesheet" media="screen and (max-width:899px)" href="mycss_tablet.css">
 
 	</head>
 <style>
+@media (min-width:900px) {
 	body {
 	background-image: url('canvas.png');
 	}
+}
+
+@media (max-width: 899px) {
+	body{
+	background-image: url('WaveBackground.jpg');
+	}
+
+}
 	</style>
 	<body>
 	
@@ -134,25 +147,27 @@
 			<p>Everybody knows YouTube. There is a lot of original videos posted on there everyday. I probably spent half my life watching youtube videos at this point. YouTube is an American video-sharing platform headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries.</p>
 			
 		</ul>
+		
+		<div>
 		<form action="/CUS1172_ASSIGNMENTS/CUS1172_Project1_Milestone2/index.html.html#Info">
-			What is your favorite Website?<br>
-			<input type="text" name="website" >
-			<br>
-			
-			<br><br>
+			<label for="website">What is your favorite Website?</label>
+			<input type="text" id="websiteInput" name="website" placeholder="www." >			
 			<input type="submit" value="Submit">
 		</form> 
-
+		</div>
 		
 		
 		<h1 id="MyProjects">My Projects in this course [INDEX]: </h1>
+		
+		<h2>[Link to Github Repository]  </h2> <a href="https://github.com/Developer366/CUS1172_WebPageGraphics-Assignments" style="color:lawngreen;">Labs and Assignments for CUS1172 Web Page Graphics</a>
+		<br><br>
 		<ol>
-			<li>[Project 1]: Basic Personal Website  </li>
+			<li style="color:red; font-size: 150%">[Project 1 - Milestone 1] &nbsp Made a Basic Personal Website using just HTML &nbsp &nbsp <a href="https://developer366.github.io/CUS1172_WebPageGraphics-Assignments/CUS1172_Project1_Milestone1/" style="font-size:100%;">Project1-Milestone 1</a> </li> <br>
+			
+			<li style="color:red; font-size: 150%">[Project 1 - Milestone 2] &nbsp Added CSS styling to my webpage and make it a responsive design to handle a webpage and a tablet screen &nbsp &nbsp <a href="https://developer366.github.io/CUS1172_WebPageGraphics-Assignments/CUS1172_Project1_Milestone2/" style="font-size:100%;">Project1-Milestone 2</a> </li> 
 			
 		</ol>
-		
-		
-		
+			
 		
 	</body>
 
