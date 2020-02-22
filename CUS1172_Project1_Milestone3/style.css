@@ -1,0 +1,43 @@
+.navbar-nav.nav-item.nav-link a{
+	color: red; 
+}
+body {
+	background-color: lightgreen;
+}
+#collapsibleNavBar{
+	background-color: red;
+}
+h1 {
+	text-align: center;
+	color: blue; 
+}
+h4 {
+	text-align: center;
+	color: BlueViolet;
+}
+.avatar{
+	width:450px; 
+	height:450px; 
+	border-radius:80%; 
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+p {
+	font-family: OCR A Std, monospace;
+	text-align: center;
+	font-size: 170%;
+}
+.bold {
+	font-weight:900;
+	color: #ff3300;
+}
+p {
+	font-family: OCR A Std, monospace;
+	text-align: center;
+	font-size: 170%;
+}
+ul{
+	font-family: OCR A Std, monospace;
+	font-size: 170%;
+}
