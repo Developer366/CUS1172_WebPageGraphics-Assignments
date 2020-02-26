@@ -1,3 +1,8 @@
+.jumbotron {
+	background-color: BlueViolet;
+	border-radius: 0 !important;
+}
+
 .navbar-nav.nav-item.nav-link a{
 	color: red; 
 }
@@ -10,6 +15,7 @@ body {
 h1 {
 	text-align: center;
 	color: blue; 
+	text-decoration: underline;
 }
 h4 {
 	text-align: center;
@@ -30,14 +36,24 @@ p {
 }
 .bold {
 	font-weight:900;
-	color: #ff3300;
-}
-p {
-	font-family: OCR A Std, monospace;
-	text-align: center;
-	font-size: 170%;
+	color: blue;
 }
 ul{
 	font-family: OCR A Std, monospace;
-	font-size: 170%;
+	font-size: 200%;
 }
+.nav-item a{
+		text-align:center;
+		color: CornflowerBlue !important;
+		font-size: 20px; 
+		margin-left: 40px;
+]
+
+
+/*
+.table.table-bordered {
+	border-color:red !important;
+}
+*/
+
+
